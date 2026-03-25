@@ -1,6 +1,6 @@
 # Overview
 
-The repository is organized as a packaged workflow so that a user can download the full folder, open the project in R or RStudio, and run the scripts using a consistent directory structure.
+This repository is organized as a packaged workflow so that a user can download the full folder, open the project in R or RStudio, and run the scripts using a consistent directory structure.
 
 The repository contains two broad types of scripts:
 
