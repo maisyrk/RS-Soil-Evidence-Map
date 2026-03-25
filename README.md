@@ -1,7 +1,5 @@
 # Overview
 
-This repository contains the scripts, intermediate data files, and final figure-generation code used to support the evidence map presented in **Roach-Krajewski et al. (2026)**.
-
 The repository is organized as a packaged workflow so that a user can download the full folder, open the project in R or RStudio, and run the scripts using a consistent directory structure.
 
 The repository contains two broad types of scripts:
