@@ -1,4 +1,3 @@
-
 # Overview
 
 This repository contains the scripts, intermediate data files, and final figure-generation code used to support the evidence map presented in **Roach-Krajewski et al. (2026)**.
@@ -27,17 +26,17 @@ Thus:
 
 # Repository structure
 
-Roach-Krajewski_et_al_2026_packaged/
-├── data/
-│   ├── 0_initial_search/
-│   ├── 1_parsed_databases/
-│   ├── 2_merged_databases/
-│   ├── 3_snowball_search/
-│   ├── 4_final_study_data/
-│   └── 5_extra_figure_data/
-├── R/
-│   └── FIGURES/
-└── figures/
+    Roach-Krajewski_et_al_2026_packaged/
+    ├── data/
+    │   ├── 0_initial_search/
+    │   ├── 1_parsed_databases/
+    │   ├── 2_merged_databases/
+    │   ├── 3_snowball_search/
+    │   ├── 4_final_study_data/
+    │   └── 5_extra_figure_data/
+    ├── R/
+    │   └── FIGURES/
+    └── figures/
 
 # Directory descriptions
 
@@ -83,7 +82,7 @@ This folder contains the **final manually compiled evidence-map dataset** used f
 
 This workbook contains the finalized study-level coded variables used for the final figures.
 
-Note: This folder may also contain additional derived files created from that workbook. 
+Note: This folder may also contain additional derived files created from that workbook.
 
 ## `data/5_extra_figure_data`
 
@@ -95,7 +94,7 @@ This folder contains supporting files used by some figure scripts:
 
 ## `R`
 
-This folder contains the main processing and workflow scripts. i.e.:
+This folder contains the main processing and workflow scripts, including:
 
 - bibliographic parsing scripts
 - database merging scripts
@@ -103,9 +102,7 @@ This folder contains the main processing and workflow scripts. i.e.:
 
 ## `R/FIGURES`
 
-This folder contains the scripts used to generate the final manuscript figures.
-
-Each final figure has its own script.
+This folder contains the scripts used to generate the final manuscript figures. Each final figure has its own script.
 
 ## `figures`
 
@@ -166,7 +163,7 @@ Run the figure scripts in `R/FIGURES/` as needed.
 
 # Figure scripts
 
-The final figure scripts are organized so that each script creates one output figure.
+Each figure script generates one output figure.
 
 ## Main figures
 
@@ -187,8 +184,6 @@ The final figure scripts are organized so that each script creates one output fi
 
 ## Figures using `evidence_map_data.xlsx`
 
-The following scripts use the finalized study-data workbook directly:
-
 - Figure 1
 - Figure 2
 - Figure 3
@@ -205,4 +200,5 @@ The following scripts use the finalized study-data workbook directly:
 
 - Figure 3 uses biome shapefiles
 - Figure 7 uses `temporal_scale.xlsx`
+
 
